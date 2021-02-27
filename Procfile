@@ -1,2 +1,1 @@
-chmod +x ./START
-./START
+bash chmod +x ./START; ./START
