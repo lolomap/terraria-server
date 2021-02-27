@@ -1,7 +1,5 @@
 #!/bin/bash
-cd server
-mkdir worlds
-cd ..
+npm run build
 cp MyWorld.wld server/worlds/
 cp MyWorld.wld.bak server/worlds/
 cp MyWorld.wld.bak2 server/worlds/
