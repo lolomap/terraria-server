@@ -1,0 +1,8 @@
+#!/bin/bash
+cd server
+mkdir worlds
+cd ..
+cp MyWorld.wld server/worlds/
+cp MyWorld.wld.bak server/worlds/
+cp MyWorld.wld.bak2 server/worlds/
+npm run start
